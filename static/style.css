@@ -1,0 +1,13 @@
+body {
+    text-align: center;
+    color: #000000 ;
+    background-color: #4297A0;
+}
+header {
+    position:static ;
+    padding: 2%;
+    color: #F4EAE6;
+}
+div {
+    padding: 2%;
+}

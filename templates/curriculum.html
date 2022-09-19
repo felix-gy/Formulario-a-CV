@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Curriculum Vitae</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style_cv.css')}}" />
+  </head>
+  
+  <body>
+    <div class="header">
+      <h1> {{ names }} </h1>
+      <h3> {{ ocupation }} </h2> 
+    </div>
+
+    <div id="parent">
+      <div class="bar">
+      <h3> Contacto </h3>
+      <ul>
+        <li>{{ contact }}</li>
+      </ul>
+      <h3> Idiomas </h3>
+      <ul>
+        <li>Español: Nativo</li>
+        <li>Ingles: {{ ingles }} </li>
+      </ul>
+      <h3> Aptitudes </h3>
+      <ul>
+        <li> {{ aptitud }}</li>
+      </ul>
+      <h3> Habilidades </h3>
+      <ul>
+        <li> {{ habilidades }}</li>
+      </ul>
+    </div>
+    
+    <div class="content">
+      <h3> Perfil </h3>
+       <p> {{ perfil }} </p>
+      <h3> Lenguajes de programación </h3>
+        <p> {{ lenguajes }}</p>
+      <h3> Nacionalidad </h3>
+        <p> {{ nationality }} </p>
+      <h3> Fecha de nacimiento </h3>
+        <p> {{ birth_date }} </p>
+    </div>    
+  </body>
+</html>
