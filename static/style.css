@@ -1,12 +1,12 @@
 body {
     text-align: center;
-    color: #000000 ;
-    background-color: #4297A0;
+    color: #F5F5F5 ;
+    background-color: #121212;
 }
 header {
     position:static ;
     padding: 2%;
-    color: #F4EAE6;
+    color: #F5F5F5;
 }
 div {
     padding: 2%;
