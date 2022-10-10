@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width">
     <title>Curriculum Vitae</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style_cv.css')}}" />
+    <script src="{{url_for('static', filename='curriculum.js')}}"></script>
   </head>
   
   <body>
     <div class="header">
       <h1> {{ names }} </h1>
-      <h3> {{ ocupation }} </h2> 
+      <h3> {{ ocupation }} </h2>
     </div>
 
     <div id="parent">
@@ -23,6 +24,7 @@
       <ul>
         <li>Español: Nativo</li>
         <li>Ingles: {{ ingles }} </li>
+        <input type="text"><button>+</button>
       </ul>
       <h3> Aptitudes </h3>
       <ul>
@@ -31,12 +33,23 @@
       <h3> Habilidades </h3>
       <ul>
         <li> {{ habilidades }}</li>
+        <input type="text"><button>+</button>
       </ul>
     </div>
     
     <div class="content">
       <h3> Perfil </h3>
-       <p> {{ perfil }} </p>
+        <p> {{ perfil }} </p>
+      <h3> Experiencia Laboral </h3>
+        <label for="experiencia">
+          <textarea name="experiencia"></textarea>
+          <button>+</button>
+        </label>
+      <h3> Formación </h3>
+        <label for="formacion">
+          <textarea name="formacion"></textarea>
+          <button>+</button>
+        </label>
       <h3> Lenguajes de programación </h3>
         <p> {{ lenguajes }}</p>
       <h3> Nacionalidad </h3>
