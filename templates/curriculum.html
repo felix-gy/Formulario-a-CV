@@ -30,6 +30,7 @@
       <ul>
         <li> {{ aptitud }}</li>
       </ul>
+      <input type="text"><button onclick="añadir_1(this)">+</button>
       <h3> Habilidades </h3>
       <ul>
         <li> {{ habilidades }}</li>
@@ -38,18 +39,22 @@
     </div>
     
     <div class="content">
-      <h3> Perfil </h3>
+      <div>
+        <h3> Perfil </h3>
         <p> {{ perfil }} </p>
-      <h3> Experiencia Laboral </h3>
-        <label for="experiencia">
-          <textarea name="experiencia"></textarea>
-          <button>+</button>
-        </label>
-      <h3> Formación </h3>
-        <label for="formacion">
-          <textarea name="formacion"></textarea>
-          <button>+</button>
-        </label>
+      </div>
+      <div>
+        <h3> Experiencia Laboral </h3>
+      </div>
+      <input type="text" placeholder="Titulo">
+      <button onclick="añadir_2(this)" class="text_btn">+</button>
+      <textarea placeholder="Descripcion" cols="22"  name="experiencia"></textarea>
+      <div>
+        <h3> Formación </h3>
+      </div>
+      <input type="text" placeholder="Titulo">
+      <button onclick="añadir_2(this)" class="text_btn" >+</button>
+      <textarea placeholder="Descripcion" cols="22" name="formacion"></textarea>
       <h3> Lenguajes de programación </h3>
         <p> {{ lenguajes }}</p>
       <h3> Nacionalidad </h3>
