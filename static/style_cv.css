@@ -46,3 +46,14 @@ button {
   padding: 4px 8px;
   background-color: #34495e;
 }
+
+p {
+  margin-top: 10px;
+  margin-bottom: 10px
+
+}
+
+h4 {
+  margin-top: 20px;
+  margin-bottom: 10px
+}

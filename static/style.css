@@ -1,4 +1,5 @@
 body {
+    
     text-align: center;
     color: #F5F5F5 ;
     background-color: #121212;
@@ -9,5 +10,11 @@ header {
     color: #F5F5F5;
 }
 div {
+    display: inline-block;
     padding: 1%;
+}
+
+input[type="submit"] {
+    display: relative;
+
 }
