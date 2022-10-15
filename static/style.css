@@ -14,7 +14,24 @@ div {
     padding: 1%;
 }
 
+
+input {
+    border-radius: 5px;
+    padding: 3px;
+
+}  
+
 input[type="submit"] {
     display: relative;
+    padding: 5px;
 
+
+}
+span {
+    font-weight: bold;
+    
+}
+p {
+    color: #666666	;
+    font-weight:lighter
 }
