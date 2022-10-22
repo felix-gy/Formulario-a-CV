@@ -6,7 +6,7 @@ app = Flask(__name__)
 def index():
     return render_template("index.html")
 
-@app.route("/curriculum",  methods=["POST"])
+@app.route("/curriculum",  methods=["POST"] )
 def info():
     names = request.form.get('nombre')
     birth_date =request.form.get('fecha')
@@ -31,6 +31,3 @@ def info():
         names=names,
         )
 
-
-if __name__ == '__main__':
-    app.run(debug=True)

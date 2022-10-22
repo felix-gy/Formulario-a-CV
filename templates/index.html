@@ -41,7 +41,7 @@
                 </div>
                 <div>
                     <span><label for="nacionalidad">Nacionalidad:</label></span>
-                    <select onchange="validate()" name="nacionalidad" id="nacionalidad">
+                    <select onchange="validate()" class="check_empty" name="nacionalidad" id="nacionalidad">
                         <option value="Perú">Perú</option>
                         <option value="Colombia">Colombia</option>
                         <option value="Argentina">Argentina</option>
@@ -60,7 +60,7 @@
                 <div>
                     <span><label for="lenguajes">Lenguajes de programación:</label></span>
                     
-                    <select onchange="validate()" name="lenguajes" multiple>
+                    <select onchange="validate()" class="check_empty" name="lenguajes" multiple>
                         <option value="C++">C++</option>
                         <option value="Python">Python</option>
                         <option value="JavaScript">JavaScript</option>
@@ -80,8 +80,8 @@
                         <option value="Habilidades Fisicas"></option>
                     </datalist>
                 </div>
-                <div><span>
-                    <label for="habilidades">Habilidades:</label></span><br>
+                <div>
+                    <span><label for="habilidades">Habilidades:</label></span><br>
                         <input   type="checkbox" value="Acondicionamiento fisico" name="habilidades" >
                         <label for="Acondicionamiento fisico">Acondicionamiento fisico</label><br>
                         <input  type="checkbox" value="Creacion videos deportivos" name="habilidades">
